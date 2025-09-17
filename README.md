@@ -3,6 +3,8 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/release/python-380/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.9+-red.svg)](https://pytorch.org/)
 
+![Overview of SSCR](asset/framework.png)
+
 ## Abstract
 
 This repository contains the official implementation of the method described in Cheng et al.'s paper on **SAR-optical multimodal cloud removal**. Our approach combines Synthetic Aperture Radar (SAR) and optical satellite observations to reconstruct cloud-free optical images.
@@ -138,6 +140,9 @@ python model/test_reconstruct.py --root3 path/to/SEN12MSCR --export_every -1 --l
 │   ├── pre_compute_data_samples.py # Dataset preprocessing
 └── README.md                      # This documentation
 ```
+
+## Visualization
+![Visual of SSCR](asset/visual.png)
 
 
 ## Related Work and References
